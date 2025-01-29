@@ -1127,11 +1127,15 @@ p {
   top: 0;
   width: 100%;
   z-index: 99;
-  max-height: 80px; /* تقليل ارتفاع الشريط */
-  padding: 0 15px;
+  max-height: 300px; /* تقليل ارتفاع الشريط */
+  padding: 10px 15px; /* Adjust padding to prevent growing */
   display: flex;
   align-items: center;
+  font-size: 18px; /* حجم النص */
+  line-height: 1; /* Prevent text from increasing height */
 }
+
+
 
 .sticky .navbar-nav .nav-item a {
   color: white !important; /* تثبيت لون النصوص إلى الأبيض */

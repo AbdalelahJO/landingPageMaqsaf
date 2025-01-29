@@ -104,24 +104,86 @@
     <section id="home" class="hero-section">
       <div class="container">
         <div class="row align-items-center">
+          <!-- Text Content -->
           <div class="col-lg-6">
             <div class="hero-content">
-                <h1 class="text-4xl font-bold text-center text-[#0a4b56]">مقصف الحل الرقمي للمدارس</h1>
-                <p class="text-lg text-center text-gray-600 mt-4">تطبيق مقصف يقدم حلول مبتكرة لتنظيم عمليات البيع والشراء داخل المدارس بسهولة وأمان.</p>                
-              <div class="hero-btns">
-								<a href="#download" class="main-btn btn-hover wow fadeInUp" data-wow-delay=".6s">حمل التطبيق</a>
-								<a href="https://rebrand.ly/appgrids-gg/" class="main-btn border-btn btn-hover wow fadeInUp" data-wow-delay=".6s">اعرف المزيد</a>
-							</div>
+              <h1 class="text-5xl font-bold text-center text-[#0a4b56] leading-relaxed">مقصف الحل الرقمي للمدارس</h1>
+              <p class="text-lg text-center text-gray-600 mt-4">تطبيق مقصف يقدم حلول مبتكرة لتنظيم عمليات البيع والشراء داخل المدارس بسهولة وأمان.</p>
+              <div class="hero-btns text-center mt-5">
+                <a href="#download" class="main-btn btn-hover">حمل التطبيق</a>
+                <a href="#features" class="main-btn border-btn btn-hover">اعرف المزيد</a>
+              </div>
             </div>
-					</div>
-					<div class="col-lg-6">
-						<div class="hero-img wow fadeInUp" data-wow-delay=".5s">
-							<img src="assets/img/hero/side.png" alt="">
-						</div>
-					</div>
+          </div>
+          <!-- Image Content -->
+          <div class="col-lg-6">
+            <div class="hero-img">
+              <img src="assets/img/hero/side.png" alt="Hero Image" class="hero-phone">
+            </div>
+          </div>
         </div>
-			
+      </div>
     </section>
+    
+    <style>
+    .hero-section {
+      position: relative;
+      z-index: 1;
+      padding: 100px 0;
+      background: linear-gradient(135deg, #f0f9ff, #e1f5fe); /* Subtle gradient */
+      overflow: hidden;
+    }
+    
+    .hero-section .hero-content h1 {
+      font-size: 48px; /* Increased size for better visibility */
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+    
+    .hero-section .hero-content p {
+      font-size: 18px;
+      margin-bottom: 30px;
+      color: #6b7280;
+    }
+    
+    .hero-section .hero-btns .main-btn {
+      background-color: #0a4b56;
+      color: #fff;
+      padding: 14px 30px;
+      border-radius: 8px;
+      font-size: 18px;
+      font-weight: bold;
+      margin-right: 15px;
+    }
+    
+    .hero-section .hero-btns .border-btn {
+      border: 2px solid #0a4b56;
+      color: #0a4b56;
+      padding: 14px 30px;
+      border-radius: 8px;
+      font-size: 18px;
+    }
+    
+    .hero-section .hero-img {
+      position: relative;
+      animation: float 4s ease-in-out infinite; /* Add subtle floating animation */
+    }
+    
+    .hero-section .hero-img .hero-phone {
+      width: 110%; /* Adjust the phone size */
+      transform: rotate(-5deg); /* Slightly rotate the phone for visual interest */
+    }
+    
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+    </style>
+    
 		<!-- ========================= hero-section end ========================= -->
 
 		<!-- ========================= feature-section start ========================= -->
@@ -177,64 +239,81 @@
 		<!-- ========================= feature-section end ========================= -->
 
 		<!-- ========================= tracking-section start ========================= -->
-        <section id="tracking" class="tracking-section pt-150">
-            <div class="tracking-shape">
-              <img src="assets/img/plan/plan-shape.svg" alt="" class="shape shape-1">
+    <section id="tracking" class="tracking-section pt-150">
+      <div class="tracking-shape">
+        <img src="assets/img/plan/plan-shape.svg" alt="" class="shape shape-1">
+      </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-xl-7">
+            <div class="tracking-image">
+              <img src="assets/img/plan/plan-img.png" alt="" class="floating-img">
             </div>
-            <div class="container">
-              <div class="row align-items-center">
-                <div class="col-lg-6 col-xl-7">
-                  <div class="tracking-image">
-                    <img src="assets/img/plan/plan-img.png" alt="">
-                  </div>
+          </div>
+          <div class="col-lg-6 col-xl-5">
+            <div class="tracking-content">
+              <div class="section-title mb-50">
+                <h1 class="mb-40 wow fadeInUp" data-wow-delay=".2s">لماذا تطبيق مقصف؟</h1>
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  تطبيق مقصف هو الحل الأمثل لتنظيم العمليات المالية ومتابعة مشتريات الطلاب داخل المدارس بطريقة آمنة ومبتكرة.
+                </p>
+              </div>
+              <div class="single-plan">
+                <div class="icon-style color-1">
+                  <i class="lni lni-cart-full"></i>
                 </div>
-                <div class="col-lg-6 col-xl-5">
-                  <div class="tracking-content">
-                    <div class="section-title mb-50">
-                      <h1 class="mb-40 wow fadeInUp" data-wow-delay=".2s">لماذا تطبيق مقصف؟</h1>
-                      <p class="wow fadeInUp" data-wow-delay=".4s">
-                        تطبيق مقصف هو الحل الأمثل لتنظيم العمليات المالية ومتابعة مشتريات الطلاب داخل المدارس بطريقة آمنة ومبتكرة.
-                      </p>
-                    </div>
-                    <div class="single-plan">
-                      <div class="icon-style color-1">
-                        <i class="lni lni-cart-full"></i>
-                      </div>
-                      <div class="content">
-                        <h3>تنظيم المشتريات</h3>
-                        <p>
-                          يتيح التطبيق للطلاب شراء احتياجاتهم المدرسية بسهولة وبدون الحاجة إلى استخدام النقود الورقية.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="single-plan">
-                      <div class="icon-style color-2">
-                        <i class="lni lni-shield"></i>
-                      </div>
-                      <div class="content">
-                        <h3>أمان كامل</h3>
-                        <p>
-                          يوفر التطبيق نظام أمان متكامل لحماية البيانات وضمان استخدام آمن لجميع الأطراف.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="single-plan">
-                      <div class="icon-style color-3">
-                        <i class="lni lni-pie-chart"></i>
-                      </div>
-                      <div class="content">
-                        <h3>تقارير وإحصائيات دقيقة</h3>
-                        <p>
-                          يمكن لأولياء الأمور والمدارس متابعة المصاريف اليومية والاطلاع على تقارير تفصيلية في أي وقت.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                <div class="content">
+                  <h3>تنظيم المشتريات</h3>
+                  <p>
+                    يتيح التطبيق للطلاب شراء احتياجاتهم المدرسية بسهولة وبدون الحاجة إلى استخدام النقود الورقية.
+                  </p>
+                </div>
+              </div>
+              <div class="single-plan">
+                <div class="icon-style color-2">
+                  <i class="lni lni-shield"></i>
+                </div>
+                <div class="content">
+                  <h3>أمان كامل</h3>
+                  <p>
+                    يوفر التطبيق نظام أمان متكامل لحماية البيانات وضمان استخدام آمن لجميع الأطراف.
+                  </p>
+                </div>
+              </div>
+              <div class="single-plan">
+                <div class="icon-style color-3">
+                  <i class="lni lni-pie-chart"></i>
+                </div>
+                <div class="content">
+                  <h3>تقارير وإحصائيات دقيقة</h3>
+                  <p>
+                    يمكن لأولياء الأمور والمدارس متابعة المصاريف اليومية والاطلاع على تقارير تفصيلية في أي وقت.
+                  </p>
                 </div>
               </div>
             </div>
-          </section>
-          
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <style>
+    /* Floating Animation for Image */
+    .tracking-image img {
+      animation: float 4s ease-in-out infinite;
+    }
+    
+    /* Floating Animation Keyframes */
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+    </style>
+    
 		<!-- ========================= tracking-section end ========================= -->
 
 		<!-- ========================= download-section start ========================= -->
